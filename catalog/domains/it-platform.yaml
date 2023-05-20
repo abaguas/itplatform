@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: it-platform
+  description: A blog in the form of a service catalog
+  annotations:
+    backstage.io/techdocs-ref: dir:../..
+spec:
+  owner: abaguas

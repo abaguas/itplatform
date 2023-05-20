@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-domains
+  description: A collection of all IT Platform's domains
+spec:
+  targets:
+    - ./it-platform.yaml

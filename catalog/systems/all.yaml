@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-systems
+  description: A collection of all IT Platform's systems
+spec:
+  targets:
+    - ./backstage-web-app.yaml

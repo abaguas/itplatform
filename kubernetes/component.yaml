@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kubernetes
+  description: |
+    Kubernetes is an open-source container orchestration platform.
+  annotations:
+    github.com/project-slug: kubernetes/kubernetes
+    lighthouse.com/website-url: https://kubernetes.io
+spec:
+  lifecycle: experimental
+  owner: abaguas
+  system: backstage-web-app
+  type: service

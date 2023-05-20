@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: backstage-web-app
+  description: A backstage web application
+spec:
+  owner: abaguas
+  domain: it-platform

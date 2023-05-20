@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-components
+  description: A collection of all IT Platform's components
+spec:
+  targets:
+    - ../../backstage/component.yaml
+    - ../../kubernetes/component.yaml
