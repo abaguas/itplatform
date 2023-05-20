@@ -115,3 +115,5 @@ backstage:
 
 After a long journey it is time to generate and apply all the manifests. Here is the final result:
 ![techdocs](img/techdocs.png)
+
+For the complete code refer to this [commit](https://github.com/abaguas/itplatform/commit/6a54b6506aa645ddd0d55aaf59c91c2a964211e7).
