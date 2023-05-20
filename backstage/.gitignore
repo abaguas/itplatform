@@ -1,0 +1,4 @@
+*.tgz
+manifests*.yaml
+charts/
+Chart.lock

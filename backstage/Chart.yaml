@@ -1,0 +1,10 @@
+apiVersion: v2
+name: backstage
+description: A Helm chart for deploying a Backstage application
+dependencies:
+  - name: backstage
+    repository: https://backstage.github.io/charts
+    version: 0.22.5
+icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/backstage/icon/color/backstage-icon-color.svg
+type: application
+version: 0.1.0

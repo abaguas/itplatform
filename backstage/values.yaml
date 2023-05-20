@@ -1,0 +1,12 @@
+backstage:
+  backstage:
+    appConfig:
+      app:
+        baseUrl: http://localhost:3000
+      backend:
+        baseUrl: http://localhost:7007
+        database:
+          client: better-sqlite3
+          connection: ':memory:'
+      organization:
+        name: IT Platform
